@@ -34,3 +34,11 @@ closeIcon.addEventListener("click", function(){
     sideBar.classList.add("close-sidebar");
     
 })
+
+
+document.querySelectorAll('.sidebar ul li a').forEach(link => {
+  link.addEventListener('click', () => {
+    sideBar.classList.remove("open-sidebar");
+    sideBar.classList.add("close-sidebar");
+  });
+});
