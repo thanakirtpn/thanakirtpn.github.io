@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+        <video class="back-vid" autoplay loop muted playsinline preload="metadata"  src="videos/galaxy.mp4"></video>
 
 
 
@@ -55,7 +55,7 @@
         </div>
 
         <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
-            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+            <video autoplay loop muted playsinline preload="metadata" src="videos/blackhole.mp4"></video>
         </div>
 
         <section class="hero " id="home">
@@ -73,7 +73,7 @@
             </div>
             
             <div class="skills-video-box " >
-                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4"></video>
+                <video class="skills-video autoBlur" autoplay loop muted playsinline preload="metadata" src="videos/hero-video.mp4"></video>
             </div>
         
             <div class="scroll-down"></div>
@@ -184,82 +184,58 @@
 </section>
 
 
+<section class="my-project" id="projects">
+  <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
 
+  <div class="project-card">
+    <div class="project-vidbox autoBlur">
+      <video id="projectVideo1" autoplay loop muted playsinline preload="metadata">
+        <source src="/videos/project2.mp4" type="video/mp4" />
+      </video>
+      <div class="hover-sign"></div>
+    </div>
+    <div class="project-info fadein-left">
+      <h1>Animated <span class="gradient">Gaming</span> Website</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam excepturi ex in corrupti similique dolor nam, suscipit, odio soluta at recusandae nulla, id fugiat!</p>
+      <a href="https://otp.petnok.site" target="_blank" rel="noopener noreferrer">
+        <button>
+          <i class="bx bx-link-external"></i> Website
+        </button>
+      </a>
+    </div>
+  </div>
 
-        <seaction class="info-section">
-            <h1 class="section-title autoDisplay">Hello,There👋</h1>
-            <div class="info-cards">
-                <div class="card ">
-                    <h1>Build with Purpose</h1>
-                    <p>I build projects that solve real problems and create real impact — from better UX to optimized performance.</p>
-                
-                    <img src="images/grid1.png" alt="">
-                </div>
+  <div class="project-card">
+    <div class="project-vidbox autoBlur">
+      <video id="projectVideo2" autoplay loop muted playsinline preload="metadata">
+        <source src="/videos/project1.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="project-info fadein-left">
+      <h1>Modern <span class="gradient">Portfolio</span> Website</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi voluptates assumenda omnis impedit ipsa veritatis soluta earum minima consequatur.</p>
+      <a href="https://chat.petnok.site" target="_blank" rel="noopener noreferrer">
+        <button>
+          <i class="bx bx-link-external"></i> Website
+        </button>
+      </a>
+    </div>
+  </div>
 
-                <div class="card">
-                    <h1>Tech Stack</h1>
-                    <p>I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable applications.</p>
-                
-                    <img src="images/grid2.png" alt="">
-                </div>
+  <div class="project-card">
+    <div class="project-vidbox autoBlur">
+      <video id="projectVideo3" autoplay loop muted playsinline preload="metadata">
+        <source src="/videos/project3.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="project-info fadein-left">
+      <h1>Movie <span class="gradient">Landing</span> Page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores numquam saepe itaque sapiente odit neque necessitatibus explicabo hic laudantium ipsam nesciunt ducimus, cumque ratione esse.</p>
+      <button><i class="bx bx-link-external"></i> Website</button>
+    </div>
+  </div>
+</section>
 
-                <div class="card">
-                    <h1>I’m very flexible with time zone communications & locations</h1>
-                    <p>I'm based in Thailand and open to remote work worldwide.</p>
-                
-                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
-
-                    
-                </div>
-
-                <div class="card">
-                    <h1>My Passion for Coding</h1>
-                    <p>I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.</p>
-                
-                    <img src="images/grid4.png" alt="">
-                </div>
-            </div>
-        </seaction>
-
-        <section class="my-project" id = "projects">
-            <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
-            <div class="project-card">
-                <div class="project-vidbox autoBlur" >
-                    <video loop id="projectVideo1" src="videos/project1.mp4"></video>
-                    <div class="hover-sign"></div>
-                </div>
-                <div class="project-info fadein-left">
-                    <h1>Animated <span class="gradient">Gaming</span> Website</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam excepturi ex in corrupti similique dolor nam, suscipit, odio soluta at recusandae nulla, id fugiat!</p>
-                    <button><i class='bx bx-link-external' ></i> Website</button>
-            </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-vidbox autoBlur">
-                    <video loop id="projectVideo2" src="videos/project2.mp4"></video>
-                </div>
-                <div class="project-info fadein-left">
-                    <h1> Modern <span class="gradient">Portfolio</span> Website </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi voluptates assumenda omnis impedit ipsa veritatis soluta earum minima consequatur.</p>
-                    <button><i class='bx bx-link-external' ></i> Website</button>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-vidbox autoBlur">
-                    <video loop id="projectVideo3" src="videos/project3.mp4"></video>
-                </div>
-                
-                <div class="project-info fadein-left">
-                    <h1>Movie <span class="gradient">Landing</span>  Page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores numquam saepe itaque sapiente odit neque necessitatibus explicabo hic laudantium ipsam nesciunt ducimus, cumque ratione esse.</p>
-                    <button><i class='bx bx-link-external' ></i> Website</button>
-                </div>
-            </div>
-        </section>
-
-        
         <section class="skills-section" id="skills">
             <h1 class="section-title autoDisplay">
                 My Skills 💪
